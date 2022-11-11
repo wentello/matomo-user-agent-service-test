@@ -1,0 +1,19 @@
+{
+    "name": "wentello/matomo-user-agent-service-test",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vitaliy"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Hillel\\AgentUser\\Test\\": "./src"
+        }
+    },
+    "require": {
+        "matomo/device-detector": "^6.0"
+    }
+}
