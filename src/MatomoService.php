@@ -1,6 +1,6 @@
 <?php
 
-namespace Hillel\AgentUser\Test;
+namespace Hillel\AgentUserMatomo\Test;
 
 use DeviceDetector\ClientHints;
 use DeviceDetector\DeviceDetector;
