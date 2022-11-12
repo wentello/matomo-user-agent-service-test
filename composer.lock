@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3ad1da0b4502eb23a0d897f8add3cf94",
+    "content-hash": "71c118476d4c9b317f4f955618785ad0",
     "packages": [
         {
             "name": "matomo/device-detector",
@@ -124,6 +124,42 @@
                 "yml"
             ],
             "time": "2019-09-10T13:16:29+00:00"
+        },
+        {
+            "name": "wentello/user-agent-interface-test",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wentello/user-agent-interface-test.git",
+                "reference": "c08ff065728e7ba534c9fa4678f4c3d2fb7a87d6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wentello/user-agent-interface-test/zipball/c08ff065728e7ba534c9fa4678f4c3d2fb7a87d6",
+                "reference": "c08ff065728e7ba534c9fa4678f4c3d2fb7a87d6",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Hillel\\AgentUser\\Test\\": "./src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "vitaliy"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/wentello/user-agent-interface-test/issues",
+                "source": "https://github.com/wentello/user-agent-interface-test/tree/main"
+            },
+            "time": "2022-11-11T15:02:16+00:00"
         }
     ],
     "packages-dev": [],

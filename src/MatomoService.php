@@ -7,6 +7,7 @@ use DeviceDetector\DeviceDetector;
 use DeviceDetector\Parser\Device\AbstractDeviceParser;
 use DeviceDetector\Parser\Client\Browser;
 use DeviceDetector\Parser\OperatingSystem;
+use Hillel\AgentUser\Test\UserAgentInterface;
 
 class MatomoService implements UserAgentInterface
 {
