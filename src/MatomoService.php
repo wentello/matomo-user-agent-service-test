@@ -23,7 +23,7 @@ class MatomoService implements UserAgentInterface
     {
         AbstractDeviceParser::setVersionTruncation(AbstractDeviceParser::VERSION_TRUNCATION_NONE);
 
-        $userAgent = request()->server()->get('HTTP_USER_AGENT'); // change this to the useragent you want to parse
+        $userAgent = request()->server('HTTP_USER_AGENT'); // change this to the useragent you want to parse
         $clientHints = ClientHints::factory(request()->server()); // client hints are optional
 
         $dd = new DeviceDetector($userAgent, $clientHints);
